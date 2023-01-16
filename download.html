@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="downloadStyle.css">
-        <title>Home Page</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="downloadStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Condensed:wght@300;400&family=Sono:wght@500&display=swap" rel="stylesheet">
+    <title>Download Page</title>
+</head>
+<body>
+    <header id="navbar">
+        <div class="logo"> <a href="homepage.html" style="font-size: 25px;color: white;">
+          <img src="NASA-LOGO2.png" alt = "NASA_logo" class="nasa-logo">
+          </a> </div>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="missions.html">MISSIONS</a></li>
+            <li><a href="careers.html">CAREERS</a></li>
+            <li><a href="download.html">DOWNLOAD</a></li>
+            <li><a href="about.html">ABOUT</a></li>
 
-    </head>
-
-    
-    <body>
-
-        <header id="navbar">
-            <div class="logo"> <a href="index.html" style="font-size: 25px;color: white;">
-              <p>NASA</p>
-              </a> </div>
-            <nav class="nav-bar">
-              <ul>
-                <li><a href="disc.html">DISCOGRAPHY</a></li>
-                <li><a href="profile-2.html">PROFILE</a></li>
-                <li><a href="shop.html">STILL LIFE</a></li>
-    
-              </ul>
-            </nav>
-            <div class= "hamburger">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-            </div>
-        </header>
+          </ul>
+        </nav>
+        <div class= "hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+    </header>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+        const navbar = document.querySelector(".nav-bar");
+        hamburger.addEventListener("click",() => navbar.classList.toggle("active"));
         
-    </body>
+          window.onscroll = function() {scrollFunction()};
+          </script>
+</body>
+
 </html>
