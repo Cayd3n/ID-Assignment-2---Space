@@ -1,0 +1,53 @@
+
+
+/* -------------------------------------Navigation Bar line---------------------------*/
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    position: fixed;
+    z-index: 10;
+    height: 10%;
+    font-family: "Orbitron";
+    transition-duration: 0.300s;
+    opacity: 75%;
+
+  }
+  #navbar:hover {
+    color:cadetblue;
+    height: 12.3%;
+    opacity: 100%;
+  }
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    padding-left: 10px;
+
+  }
+  .logo:hover {
+    color:cadetblue;
+  }
+  .nav-bar li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    font-family: "Orbitron";
+  }
+  a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #b7b9bb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
