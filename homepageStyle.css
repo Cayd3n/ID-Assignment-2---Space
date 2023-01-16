@@ -6,13 +6,16 @@ body{
   font-family: 'Orbitron';
 }
 /* -------------------------------------Navigation Bar line---------------------------*/
-
+.nasa-logo {
+  width:115px;
+  height:65px;
+}
 #navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
+    background: none;
     position: fixed;
     z-index: 10;
     height: 10%;
@@ -42,16 +45,38 @@ body{
     display: inline-block;
     list-style: none;
     padding: 0px 15px;
-    font-family: "Orbitron";
+    font-family: 'Roboto Condensed', sans-serif,bold;
   }
-  a {
-    font-size: 16px;
+  li a {
+    font-size: 20px;
     font-weight: 500;
-    color: #b7b9bb;
+    color: black;
     text-decoration: none;
     cursor: pointer;
+    display: inline-block;
+    position: relative;
+   
   }
-  
+  li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  li a:hover {
+    font-style: italic;
+  }
+
   .hamburger {
     display: none;
   }
