@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    width: 100%;
+    
+  }
+  /* -------------------------------------Navigation Bar line---------------------------*/
+  .nasa-logo {
+    width:115px;
+    height:65px;
+  }
+  #navbar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: none;
+      position: fixed;
+      z-index: 10;
+      height: 10%;
+      font-family: "Orbitron";
+      transition-duration: 0.300s;
+      opacity: 75%;
+  
+    }
+    #navbar:hover {
+      color:cadetblue;
+      height: 12.3%;
+      opacity: 100%;
+    }
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      padding-left: 10px;
+  
+    }
+    .logo:hover {
+      color:cadetblue;
+    }
+    .nav-bar li {
+      display: inline-block;
+      list-style: none;
+      padding: 0px 15px;
+      font-family: 'Roboto Condensed', sans-serif,bold;
+    }
+    li a {
+      font-size: 20px;
+      font-weight: 500;
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+     
+    }
+    li a::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #0087ca;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    li a:hover::after{
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    li a:hover {
+      font-style: italic;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+    @media (max-width:600px){
+      .hamburger {
+          display: block;
+          cursor: pointer;
+        }
+        .hamburger .line {
+          width: 30px;
+          height: 3px;
+          background: black;
+          margin: 6px 0;
+        }
+        .nav-bar {
+          height: 0;
+          position: absolute;
+          top: 50px;
+          left: 0;
+          right: 0;
+          width: 100vw;
+          background: none;
+          transition: 0.5s;
+          overflow: hidden;
+        }
+        .nav-bar.active {
+          height: 350px;
+          opacity: 95%;
+        }
+        .nav-bar ul {
+          display: block;
+          width: fit-content;
+          margin: 50px auto 0 auto;
+          text-align: center;
+          transition: 0.5s;
+         
+          color:navy;
+        }
+        .nav-bar.active ul {
+          opacity: 1;
+          display: flex;
+          flex-direction: column;
+          font-size: 50px;
+          font-weight: bold;
+        }
+  
+      
+   
+      ul {
+          list-style: none;
+        }
+  
+        #navbar{
+          display: block;
+        }
+   
+        
+      }
