@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="mainStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Condensed:wght@300;400&family=Sono:wght@500&display=swap" rel="stylesheet">
     <title>Missions Page</title>
+    <style>
+      body {
+        font-family: 'nasa', Arial, Helvetica, sans-serif;
+      }
+    </style>
 </head>
 <body>
     <header id="navbar">
@@ -29,11 +34,21 @@
     </header>
     <script>
       const hamburger = document.querySelector(".hamburger");
-        const navbar = document.querySelector(".nav-bar");
-        hamburger.addEventListener("click",() => navbar.classList.toggle("active"));
+      const navbar = document.querySelector(".nav-bar");
+      hamburger.addEventListener("click",() => navbar.classList.toggle("active"));
         
-          window.onscroll = function() {scrollFunction()};
-          </script>
+      window.onscroll = function() {scrollFunction()};
+     </script>
+
+      <container class="missionHeader">
+        <h1 style="font-size: 58px; color:white; margin-left: 3%;">
+          Missions 
+        </h1>
+
+      </container>
+
 </body>
+
+
 
 </html>
