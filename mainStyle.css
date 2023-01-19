@@ -132,7 +132,7 @@ body{
 
    /*--------------------------------Home Page--------------------------------------------------*/
    .intro {
-    background-image: url('images/rocket.jpg');
+    background-image: url('images/intro.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: 100% 100%;
@@ -145,6 +145,7 @@ body{
     padding-top:30%;
     padding-bottom:0%;
     font-size:60px;
+    text-shadow: black 2px 2px 2px;
   }
   .intro-button {
 
@@ -157,6 +158,44 @@ body{
       border:solid white 1px;
       margin-left:10%;      
   }
+
+  .button_slide {
+    color: white;
+    border: 2px solid white;;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 white;
+    color:black;
+  }
+
+  
+  #outer {
+    margin-left:10%;
+  }
+  #outer1 {
+    margin-left:10%;
+  }
+  .intro-1 {
+    background-image: url('images/james.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      color:white;
+      height:800px;
+  }     
       
 
   /* -------------------------------------Mission Page CSS Elements---------------------------*/
