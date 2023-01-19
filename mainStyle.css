@@ -57,7 +57,7 @@ body{
     li a {
       font-size: 20px;
       font-weight: 500;
-      color: black;
+      color: white;
       text-decoration: none;
       cursor: pointer;
       display: inline-block;
@@ -87,61 +87,37 @@ body{
     .hamburger {
       display: none;
     }
-    @media (max-width:600px){
-      .hamburger {
-          display: block;
-          cursor: pointer;
-        }
-        .hamburger .line {
-          width: 30px;
-          height: 3px;
-          background: black;
-          margin: 6px 0;
-        }
-        .nav-bar {
-          height: 0;
-          position: absolute;
-          top: 50px;
-          left: 0;
-          right: 0;
-          width: 100vw;
-          background: none;
-          transition: 0.5s;
-          overflow: hidden;
-        }
-        .nav-bar.active {
-          height: 350px;
-          opacity: 95%;
-        }
-        .nav-bar ul {
-          display: block;
-          width: fit-content;
-          margin: 50px auto 0 auto;
-          text-align: center;
-          transition: 0.5s;
-         
-          color:navy;
-        }
-        .nav-bar.active ul {
-          opacity: 1;
-          display: flex;
-          flex-direction: column;
-          font-size: 50px;
-          font-weight: bold;
-        }
-  
+   
+   
+
+   /*--------------------------------Home Page--------------------------------------------------*/
+   .intro {
+    background-image: url('images/rocket.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      color:white;
+      height:800px;
+  }     
+  .intro-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10%;
+    padding-top:30%;
+    padding-bottom:0%;
+    font-size:60px;
+  }
+  .intro-button {
+
+      background: none;
+      opacity: 95%;
+      font-size: 20px;
+      font-family: 'Sono';
+      cursor: pointer;
+      color:white;
+      border:solid white 1px;
+      margin-left:10%;      
+  }
       
-   
-      ul {
-          list-style: none;
-        }
-  
-        #navbar{
-          display: block;
-        }
-   
-        
-      }
 
   /* -------------------------------------Mission Page CSS Elements---------------------------*/
 

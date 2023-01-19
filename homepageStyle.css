@@ -50,7 +50,7 @@ body{
   li a {
     font-size: 20px;
     font-weight: 500;
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
@@ -80,3 +80,4 @@ body{
   .hamburger {
     display: none;
   }
+
