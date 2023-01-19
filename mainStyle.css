@@ -145,11 +145,30 @@ body{
 
   /* -------------------------------------Mission Page CSS Elements---------------------------*/
 
+  .missionBackground {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    margin-top: 6%;
+    padding-bottom: 30%;
+    z-index: -1;
+
+  }
   .missionHeader {
     background-color: #0087ca;
     position: absolute;
     margin-top: 6%;
-    padding-right: 35%;
+    padding-right: 20%;
     padding-bottom: 0;
 
   }
+
+  .missionText {
+    color: white
+  }
+
+  
