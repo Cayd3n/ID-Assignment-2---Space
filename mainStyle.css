@@ -89,7 +89,7 @@ body{
       display: none;
     }
     .dropbtn {
-      background-color: black;
+      background:none;
       color: white;
       padding: 16px;
       font-size: 16px;
