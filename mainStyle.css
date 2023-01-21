@@ -14,88 +14,7 @@ body{
 
 }
   /* -------------------------------------Navigation Bar line---------------------------*/
-  /*.nasa-logo {
-    width:115px;
-    height:65px;
-  }
-  #navbar {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: none;
-      position: fixed;
-      z-index: 10;
-      height: 10%;
-      font-family: "Orbitron";
-      transition-duration: 0.300s;
-      opacity: 75%;
-  
-    }
-    #navbar:hover {
-      color:cadetblue;
-      height: 12.3%;
-      opacity: 100%;
-    }
-    .logo {
-      font-size: 30px;
-      font-weight: bold;
-      color: white;
-      letter-spacing: 1.5px;
-      cursor: pointer;
-      padding-left: 10px;
-  
-    }
-    .logo:hover {
-      color:cadetblue;
-    }
-    .nav-bar li {
-      display: inline-block;
-      list-style: none;
-      padding: 0px 15px;
-      font-family: 'Roboto Condensed', sans-serif,bold;
-    }
-    li a {
-      font-size: 20px;
-      font-weight: 500;
-      color: white;
-      text-decoration: none;
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-     
-    }
-    li a::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: #0087ca;
-      transform-origin: bottom right;
-      transition: transform 0.25s ease-out;
-    }
-    li a:hover::after{
-      transform: scaleX(1);
-      transform-origin: bottom left;
-    }
-    li a:hover {
-      font-style: italic;
-    }
-  
-    .hamburger {
-      display: none;
-    }
-    .dropbtn {
-      background:none;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    } */
-    
+
     .nasa-logo {
       width:115px;
       height:65px;
@@ -198,8 +117,12 @@ body{
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
   }
+  a:link {
+    text-decoration: none;
+  }
 
   
+
   .slide_down:hover {
     box-shadow: inset 0 100px 0 0 white;
     color:black;
