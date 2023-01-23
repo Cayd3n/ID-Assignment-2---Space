@@ -226,6 +226,51 @@ padding:15%;
   text-align: center;
 }
 
+.e-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 40ch;
+  font-size: 70px;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 3s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
+}
+
+span:nth-child(2) {
+  animation: fade-in 3s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
+}
+
+span:nth-child(3) {
+  animation: fade-in 3s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
+}
+
+span:nth-child(4) {
+  animation: fade-in 3s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
+}
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
 @media (max-width:600px) {
   .career-text {
     text-align: center;
@@ -245,7 +290,11 @@ padding:15%;
   .container-life1{
     padding:12%;
   }
+  .e-text{
+    font-size: 30px;
+  }
 }
+
 
 /*---------------------------------------INTERNSHIP-------------------------------------------------*/
 .internbg {
@@ -261,6 +310,16 @@ padding:15%;
 
   text-align: left;
 
+}
+.ani {
+  opacity: 0;
+
+  filter:blur(2px);
+  transition:all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
 }
 
 /* ---------------------------------------FOOTER----------------------------------------------------*/
