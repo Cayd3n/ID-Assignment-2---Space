@@ -334,7 +334,7 @@ footer {
 
   .apollo-text {
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     color:white; 
     text-align: center;
     text-shadow: 2px 2px 2px black;
@@ -344,7 +344,7 @@ footer {
     padding-top: 15%;
   }
   .apolloBackground {
-    background-image: url("images/apollo1.jpg");
+    background-image: url("images/apolloBackground1.jpg");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -361,14 +361,14 @@ footer {
   }
 
   .apolloBackground2 {
-    background-image: url("images/apollo1.jpg");
+    background-image: url("/images/apollo1.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; 
     opacity: 0.9;
-    z-index: -1;
+    z-index: 0;
   }
   .missionHeader {
     background-color: red;
@@ -383,15 +383,17 @@ footer {
   /* Generic text for Mission pages */
   .missionText {
     color: white;
+    font:'Franklin Gothic Medium';
     font-size: 20px;
     text-align: center;
   }
 
   /* Badge Size for the Apollo Mission */
   .apolloBadge {
-    max-width: 140px;
-    max-height: 140px;
-    padding:15px;
+    max-width: 40%;
+    max-height: 45%;
+    margin-left: 40%;
+    
  
   }
 
