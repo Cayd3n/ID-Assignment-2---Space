@@ -541,15 +541,6 @@ footer {
 }
   }
 
-/*-------------------------------ABOUT------------------------*/
-.aboutbg {
-  background-image: url(images/about.jpg);
-color:white;
-height: 100%; 
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding:15%;
 
 
 /*-------------------------------Webb Telescope CSS Elements------------------------------*/
@@ -586,27 +577,8 @@ padding:15%;
   margin-top: 50px;
 }
 
-/*-------------------------------SHOP------------------------*/
-.shop-button {
-  text-align: center;
-}
-#cart-icon {
-  color:white;
-  font-size: 1.8rem;
-  cursor:pointer;
-}
-.container-shop {
-  padding: 4rem 0 3rem;
-}
-.section-title {
-  font-size: 2rem;
-  font-weight:600;
-  text-align: center;
-  margin-bottom:1.5rem;
-}
-.product-img {
+/*-------------------------------ABOUT------------------------*/
 
-}
 .about-text{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:60px;
@@ -642,4 +614,13 @@ padding:15%;
   font-size:20px;
   font-weight: 100;
   text-align: center;
+}
+.aboutbg {
+  background-image: url(images/about.jpg);
+color:white;
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding:15%;
 }
