@@ -21,3 +21,15 @@ const observer = new IntersectionObserver((entries)=> {
   const hiddenElements = document.querySelectorAll('.ani');
   hiddenElements.forEach((e1) => observer.observe(e1));
 
+//Webb Telescope Moving Slides
+var Slide = 0;
+var slideshowImages = new Array("images/WebbSlideShowA.jpg", "images/WebbSlideshowB.jpg", "images/WebbSlideshowC")
+
+function ChangeImage () {
+  Slide++ 
+  if (slide == SlideshowImages.length){
+    slide = 0
+  }
+  document.getElementById("Webbslideshow").src = SlideshowImages[slide];
+}
+
