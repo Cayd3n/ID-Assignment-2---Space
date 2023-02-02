@@ -22,14 +22,21 @@ const observer = new IntersectionObserver((entries)=> {
   hiddenElements.forEach((e1) => observer.observe(e1));
 
 //Webb Telescope Moving Slides
-var Slide = 0;
-var slideshowImages = new Array("images/WebbSlideShowA.jpg", "images/WebbSlideshowB.jpg", "images/WebbSlideshowC")
+var slide = 0;
+var slideshowImages = new Array("/images/WebbSlideShowA.jpg", "/images/WebbSlideshowB.jpg", "/images/WebbSlideshowC.jpg")
 
-function ChangeImage () {
-  Slide++ 
-  if (slide == SlideshowImages.length){
+var description = new Array(" The Phantom Galaxy<Br>The Phantom Galaxy is a spiral galaxy where tendrils of darkness<br> stretch out from its brilliant blue core. While the Hubble photographed<br> the Galaxy previously, the Webb Telescope has uncovered the strains<br> of heat emitting gas and dust.",
+"The Southern Ring Nebula", 
+"The Pillars of Creation")
+
+function ChangeImage() {
+  slide++ 
+  if (slide == slideshowImages.length){
     slide = 0
   }
-  document.getElementById("Webbslideshow").src = SlideshowImages[slide];
-}
+  document.getElementById("WebbSlideshow").src = slideshowImages[slide];
+  document.getElementById("Discoveries").innerHTML = description[slide];
+ }
 
+
+document.getElementById("slideButton").onclick = function() {ChangeImage()};
