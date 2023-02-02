@@ -331,605 +331,6 @@ footer {
 }
 
   /* -------------------------------------Apollo Page CSS Elements---------------------------*/
-
-  .apollo-text {
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
-    color:white; 
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-  }
-
-  .apollo-container {
-    padding-top: 15%;
-  }
-  .apolloBackground {
-    background-image: url("images/apollo1.jpg");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; 
-    opacity: 0.9;
-    z-index: -1;
-
-  }
-  .apollo-container1 {
-    background-color: black;
-    padding:10%;
-  }
-
-  .apolloBackground2 {
-    background-image: url("images/apollo1.jpg");
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; 
-    opacity: 0.9;
-    z-index: -1;
-  }
-
-  .missionHeaderA {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
-    color:white; 
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    margin-left: 28%; 
-    padding-top: 18%; 
-    position: absolute;
-  }
-
-  .missionHeaderB {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    font-size: 68px; 
-    color:red; 
-    margin-left: 17%; 
-    padding-top: 22%; 
-    position: absolute; 
-  }
-
-  /* Generic text for Mission pages */
-  .missionText {
-    color: white;
-    font:'Franklin Gothic Medium';
-    font-size: 20px;
-    text-align: center;
-  }
-
-  /* Badge Size for the Apollo Mission */
-  .apolloBadge {
-    max-width: 140px;
-    max-height: 140px;
-    padding:15px;
- 
-  }
-
-  /* Timeline */
-  :root {
-    --primary: red;
-    --primary-gradient: linear-gradient(45deg, black, grey 100%);
-  }
-
-  .apolloTimelineBadge {
-    width: 50%;
-    height: 60%;
-  }
-  .section-header {
-    text-align: center;
-  }
-  .section-header h2 {
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 16px;
-  }
-  .section-header hr {
-    border: 1px solid #fff;
-    width: 56px;
-  }
-  .bg-gradient_solid {
-    background-color:black;
-    color: white;
-    padding: 48px 0;
-  }
-
-
-  /* Nodes */
-  .node {
-    position: relative;
-    margin-top: 32px;
-  }
-
-  .node::after {
-    content: "";
-    width: 1px;
-    background-color: white;
-    opacity: 0.4;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-  }
-  
-  .node .content p {
-    color: black;
-    font-size: 16px;
-  }
-  
-  .node .content h2 {
-    font-weight: 600;
-    font-size: 16px;
-    color: black;
-  }
-  
-  /* Node On Timeline */
-  .node-container {
-    position: relative;
-    background-color: inherit;
-    width: calc(50% + 32px);
-  }
-  
-  .node-container .content {
-    padding: 32px;
-    background-color: white;
-    position: relative;
-    border-radius: 0px 0px 80px 0px;
-    box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
-  }
-  
-  .node .node-container:nth-child(even) {
-    left: calc(50% - 32px);
-    flex-direction: row-reverse;
-  }
-  
-  .node-container {
-    display: flex;
-  }
-  
-  .node .node-container .date {
-    font-weight: 900;
-    font-size: 16px;
-    color: #ffffff;
-    margin-bottom: 10px;
-    width: 62px;
-    height: 62px;
-    background-color: red;
-    border-radius: 50%;
-    flex-shrink: 0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    z-index: 10;
-  }
-  
-  .node-line {
-    width: 40px;
-    background-color: #fff;
-    height: 1px;
-    margin-top: 31px;
-    opacity: 0.4;
-    flex-shrink: 0;
-  }
-
-  /* Responsive Timeline */
-  @media (max-width: 767px) {
-    .node::after {
-      left: 32px;
-    }
-
-    .node content{
-      font-size: 6px;
-    }
-
-    .node-container {
-      left: 0;
-      flex-direction: row-reverse;
-      width: auto;
-      margin-bottom: 36px;
-    }
-    .node .node-container:nth-child(even) {
-      left: 0;
-    }
-  }
-
-  @media (max-width: 600px) {
-.apollo-container {
-  padding:35%;
-}
-  }
-
-/*-------------------------------ABOUT------------------------*/
-.aboutbg {
-  background-image: url(images/about.jpg);
-color:white;
-height: 100%; 
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding:15%;
-
-}
-.about-text{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size:60px;
-  text-shadow: 2px 2px 2px black;
-  text-align: left;
-}
-.facility-img {
-  width:350px;
-  height:350px;
-}
-.about-container{
-  background-color: black;
-  padding:5%;
-  color:whitesmoke;
-  text-align: left;
-}
-.about-p {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size:25px;
-  text-shadow: 2px 2px 2px black;
-}
-.facilities-p{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:17px;
-  text-align: left;
-  padding:15%;
-  
-}
-
-
-.facilities-text {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:20px;
-  font-weight: 100;
-  text-align: center;
-}
-body{
-    margin: 0;
-    width: 100%;
-    background-color: black;
-    
-  }
-
-@font-face {
-    font-family: 'nasa';
-    src: url('nasa-webfont.woff2') format('woff2'),
-         url('nasa-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-  /* -------------------------------------Navigation Bar line---------------------------*/
-
-    .nasa-logo {
-      width:115px;
-      height:65px;
-    }
-   
-    
-    li a {
-      font-size: 20px;
-      font-weight: 500;
-      color: white;
-      text-decoration: none;
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-     
-    }
-    li a::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: #0087ca;
-      transform-origin: bottom right;
-      transition: transform 0.25s ease-out;
-    }
-    li a:hover::after{
-      transform: scaleX(1);
-      transform-origin: bottom left;
-    }
-    li a:hover {
-      font-style: italic;
-    }
-    @media (max-width:600px){
-      .navbar:hover {
-        background-color: black;
-      }
-
-    }
-   
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-
-      
-    
-    
-   
-
-   /*--------------------------------Home Page--------------------------------------------------*/
-   .bg { 
-    
-    background-image: url(images/apollo.jpg);
-  color:white;
-   
-    height: 100%; 
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .intro-text{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding:10%;
-    padding-top:30%;
-    padding-bottom:0%;
-    font-size:60px;
-    text-shadow: black 2px 2px 2px;
-  }
-
-  .intro-button {
-
-      background: none;
-      opacity: 95%;
-      font-size: 20px;
-      font-family: 'Sono';
-      cursor: pointer;
-      color:white;
-      border:solid white 1px;
-      margin-left:10%;      
-  }
-
-  .button_slide {
-    color: white;
-    border: 2px solid white;
-    border-radius: 0px;
-    padding: 18px 36px;
-    display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 14px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 white;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-  }
-
-  a:link {
-    text-decoration: none;
-  }
-
-  .slide_down:hover {
-    box-shadow: inset 0 100px 0 0 white;
-    color:black;
-  }
-
-  
-  #outer {
-    margin-left:10%;
-  }
-  #outer1 {
-    margin-left:10%;
-  }
-  #outer2 {
-    margin-left:10%;
-  }
-/* ----------------------------------------Careers------------------------------------------*/
-.container {
-  text-align: center;
-  padding-bottom: 5%;
-}
-.career-text{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size:60px;
-}
-.career-p{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:20px;
-  text-align: center;
-}
-.slide_right:hover {
-  box-shadow: inset 400px 0 0 0 white;
-  color:black;
-}
-.slide_left::before {
-  position: absolute;
-  content: "";
-  background: rgb(255, 255, 255);
-  transition-duration: 0.3s;
-  z-index: -1;
-  inset: 0px 0px auto auto;
-  width: 0px;
-  height: 100%;
-  opacity: 1;
-} 
-.slide_left:hover::before {
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-} 
-.hbtn {
-  position: relative;
-
-  z-index: 0;
-  
-  color: white;
-  border: 2px solid white;
-  border-radius: 0px;
-  padding: 18px 36px;
-  display: inline-block;
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.4s;
-} 
-
-.slide_left:hover {
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
-  transition: color 0.3s, background 0s ease 0.3s;
-} 
-.careerbg {
-  background-image: url(images/careers.png);
-color:white;
-height: 100%; 
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding:15%;
-
-}
-.container-life {
-  background-color: black;
-  padding:12%;
-  padding-left:20%;
-  padding-right:20%;
-  color:whitesmoke;
-  text-align: center;
-}
-.container-life1 {
-  background-image: url(images/planet.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding:20%;
-  padding-left:20%;
-  padding-right:20%;
-  color:whitesmoke;
-  text-align: center;
-}
-
-.e-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  max-width: 40ch;
-  font-size: 70px;
-  text-align: center;
-  transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-}
-@keyframes scale {
-  100% {
-    transform: scale(1);
-  }
-}
-
-span {
-  display: inline-block;
-  opacity: 0;
-  filter: blur(4px);
-}
-
-span:nth-child(1) {
-  animation: fade-in 3s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
-}
-
-span:nth-child(2) {
-  animation: fade-in 3s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
-}
-
-span:nth-child(3) {
-  animation: fade-in 3s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
-}
-
-span:nth-child(4) {
-  animation: fade-in 3s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0) infinite;
-}
-
-
-
-@keyframes fade-in {
-  100% {
-    opacity: 1;
-    filter: blur(0);
-  }
-}
-
-@media (max-width:600px) {
-  .career-text {
-    text-align: center;
-    padding: 20%;
-    padding-bottom: 0;
-  /*  padding-top:20%; */
-  }
-  .container {
-  padding-top:10%;
-  padding-bottom: 30%;
-  }
-
-  .container-life {
-    padding:12%;
-
-  }
-  .container-life1{
-    padding:12%;
-  }
-  .e-text{
-    font-size: 30px;
-  }
-}
-
-
-/*---------------------------------------INTERNSHIP-------------------------------------------------*/
-.internbg {
-  background-image: url(images/internship.jpg);
-  color:white;
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding:20%;
-}
-.intern-text {
-
-  text-align: left;
-
-}
-.ani {
-  opacity: 0;
-
-  filter:blur(2px);
-  transition:all 1s;
-}
-.show {
-  opacity: 1;
-  filter: blur(0);
-}
-
-/* ---------------------------------------FOOTER----------------------------------------------------*/
-footer {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.footer-nasa {
-  background-color: black;
-}
-
-  /* -------------------------------------Apollo Page CSS Elements---------------------------*/
-
-  .apollo-text {
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color:white; 
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-  }
-
   .apollo-container {
     padding-top: 15%;
   }
@@ -951,7 +352,7 @@ footer {
   }
 
   .apolloBackground2 {
-    background-image: url("/images/apollo1.jpg");
+    background-image: url("images/apollo1.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -964,12 +365,10 @@ footer {
   .missionHeaderA {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 48px;
-    color:white; 
     text-align: center;
+    color:white; 
     text-shadow: 2px 2px 2px black;
-    margin-left: 28%; 
     padding-top: 18%; 
-    position: absolute;
   }
 
   .missionHeaderB {
@@ -978,15 +377,13 @@ footer {
     text-shadow: 2px 2px 2px black;
     font-size: 68px; 
     color:red; 
-    margin-left: 17%; 
-    padding-top: 22%; 
-    position: absolute; 
+    text-align: center; 
   }
 
   /* Generic text for Mission pages */
   .apollo-text {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 30px;
+   font-size: 32px;
    color:white; 
    text-align: center;
    text-shadow: 2px 2px 2px black;
@@ -995,10 +392,11 @@ footer {
 
   /* Badge Size for the Apollo Mission */
   .apolloBadge {
-    max-width: 40%;
-    max-height: 45%;
+    max-width: 260px;
+    max-height: 260px;
+    padding:15px;
+    text-align: center;
     margin-left: 40%;
-    
  
   }
 
@@ -1098,7 +496,6 @@ footer {
     z-index: 10;
   }
   
-
   .node-line {
     width: 40px;
     background-color: #fff;
@@ -1152,25 +549,6 @@ footer {
 
 .webbBackground2 {
   background-color: black;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: fixed; 
-  opacity: 0.9;
-  z-index: -1;
-  padding-bottom: 200px;
-}
-
-.webbBackground3 {
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
-  background-attachment: fixed; 
   opacity: 0.9;
   z-index: -1;
 }
@@ -1184,69 +562,51 @@ footer {
   margin-top: 50px;
 }
 
+
 /*-------------------------------ABOUT------------------------*/
 
-/*
-  width:100%;
-  height: auto;
-  margin-bottom: 0.5rem;
-}*/
-.shop-content {
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px,auto));
-  gap:1.5rem;
+.about-text{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:60px;
+  text-shadow: 2px 2px 2px black;
+  text-align: left;
 }
-.product-box {
-  position:relative;
+.facility-img {
+  width:350px;
+  height:350px;
 }
-.product-box:hover{
-  padding:10px;
-  transition: 0.4s;
+.about-container{
+  background-color: black;
+  padding:5%;
+  color:whitesmoke;
+  text-align: left;
 }
-.product-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-left: 0.5rem;
+.about-p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:25px;
+  text-shadow: 2px 2px 2px black;
 }
-.price {
-  font-weight: 500;
+.facilities-p{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:17px;
+  text-align: left;
+  padding:15%;
+  
 }
-.add-cart {
-  position: absolute;
-  bottom:0;
-  right:0;
-  color:var(--bg-color);
-  padding:10px;
-  cursor:pointer;
+
+
+.facilities-text {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:20px;
+  font-weight: 100;
+  text-align: center;
 }
-.add-cart:hover {
-  background: black;
-  color:white;
-}
-.cart{
-  position: fixed;
-  top:0;
-  right:0;
-  width:360px;
-  min-height: 100vh;
-  padding:20px;
-  background-color:white;
-  box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
-  color:black;
-}
-.cart-title {
-  text-align:center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: 2em;
-}
-.shop {
-  margin-top:2rem;
-}
-.cart-box {
-  display:grid;
-  grid-template-columns: 32% 50% 18%;
-  align-items: center;
-  gap: 1rem;
+.aboutbg {
+  background-image: url(images/about.jpg);
+color:white;
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding:15%;
 }
