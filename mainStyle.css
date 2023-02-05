@@ -536,7 +536,7 @@ footer {
 
 /*-------------------------------Webb Telescope CSS Elements------------------------------*/
 .WebbBackground1 {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/CvKUQQ5jB7vHkGZcAxGNpB.jpg");
+  background-image: url("/images/james6.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -560,6 +560,19 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+/*-------------------------------Curiosity CSS Elements------------------------------------*/
+.curiosityBackground1 {
+  background-image: url("/images/curiosity2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  opacity: 0.9;
+  z-index: -1;
 }
 
 
