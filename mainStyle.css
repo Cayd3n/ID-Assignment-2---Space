@@ -575,7 +575,14 @@ footer {
   z-index: -1;
 }
 
-
+.curiosityBackground2 {
+  background-color:black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  opacity: 0.9;
+  z-index: -1;
+}
 
 
 /*-------------------------------ABOUT------------------------*/
@@ -608,7 +615,6 @@ footer {
   padding:15%;
   
 }
-
 
 .facilities-text {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
