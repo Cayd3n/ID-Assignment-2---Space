@@ -1,0 +1,115 @@
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+  
+/* -------------------------------------Navigation Bar line---------------------------*/
+.nasa-logo {
+    width:115px;
+    height:65px;
+}
+     
+      
+li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    }
+
+li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+ }
+
+ li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+      
+li a:hover {
+        font-style: italic;
+      }
+      
+@media (max-width:600px){
+    .navbar:hover {
+        background-color: black;
+    }
+  }
+/*-----------------------------------------Form Elements-----------------------------------*/
+
+
+.apollo-text {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 32px;
+   color:white; 
+   text-align: center;
+   text-shadow: 2px 2px 2px black;
+}
+
+.nameInput {
+    width: 0%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.creditInput {
+    width: 0%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 32%;
+}
+
+.normalInput {
+    width: 0%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 98%;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    transition: all 0.2s 0.7s;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+    
+.container {
+    position: relative;
+    width: 50%;
+    background-color: #fff;
+    min-height: 95vh;
+    overflow: hidden;
+  }
+  
+.forms-container {
+    position: absolute;
+    width: 50%;
+    height: 96%;
+    top: 0;
+    left: 0;
+  }
