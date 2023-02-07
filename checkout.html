@@ -15,12 +15,17 @@
         <script defer src="shopjava.js"></script>
         <link href ='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Shop NASA</title>
+        <title>checkout NASA</title>
+        <style>
+            body{
+                background-color: grey;
+            }
+        </style>
     </head>
 <body>
     
 <section>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-end ">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top justify-content-end " style="padding-bottom:2%">
         <div class="container-fluid justify-content-right">
           <a class="navbar-brand" href="index.html"><img src="images/NASA-LOGO2.png" alt = "NASA_logo" class="nasa-logo"></a>
         </div>
@@ -28,27 +33,27 @@
 
     <div class="container" style="margin-top:4%">
         <div class="forms-container">
-            <h2> Checkout </h2>
+            <h2 class="checkoutText"> Checkout </h2>
             <form action="#">
                 <div>
-                    <input class="nameInput" type="text" placeholder="First Name" />
-                    <input class="nameInput" type="text" placeholder="Last Name" />
+                    <input class="nameInput" type="text" placeholder="First Name" required/>
+                    <input class="nameInput" type="text" placeholder="Last Name" required/>
                 </div>
-                <input class= "normalInput" type="text" placeholder="Postal Code" />
-                <input class= "normalInput" type="text" placeholder="Address" />
-                <input class= "normalInput" type="text" placeholder="Email" />
-                <input class= "normalInput" type="text" placeholder="Credit Card Number" />
-                <input class= "normalInput" type="text" placeholder="Card Holder Name" />
+                <input class= "normalInput" type="text" placeholder="Postal Code" required/>
+                <input class= "normalInput" type="text" placeholder="Address" required/>
+                <input class= "normalInput" type="text" placeholder="Email"  required />
+                <input class= "normalInput" type="text" placeholder="Credit Card Number" required />
+                <input class= "normalInput" type="text" placeholder="Card Holder Name" required/>
                 <div>
-                    <input class= "creditInput" type="number" placeholder="MM" />
-                    <input class= "creditInput" type="number" placeholder="YY" />
-                    <input class= "creditInput" type="number" placeholder="CSV" />
+                    <input class= "creditInput" type="number" placeholder="MM" required/>
+                    <input class= "creditInput" type="number" placeholder="YY" required/>
+                    <input class= "creditInput" type="number" placeholder="CSV" required/>
                 </div>
 
 
 
     
-                <input type="submit" value="Login" class="btn" />
+                <input class="button" type="submit" value="Submit"  />
             </form>
         </div>
     </div>
