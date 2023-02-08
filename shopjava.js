@@ -136,3 +136,6 @@ function closePopup() {
   popup.classList.remove("open-popup");
   
 }
+function alert() {
+  alert("Order Placed!");
+}
