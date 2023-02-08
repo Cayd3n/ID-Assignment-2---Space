@@ -1,4 +1,4 @@
-<h1>NASA<h1>
+<h1>NASA</h1>
 NASA, short for National Aeronautics and Space Administration, was created on 1st October 1958 by the National Aeronautics and Space Act. NASA is responsible for developing sciemtific and technological advancements in human space-flight aeronautics, space science, and space applications. 
 
 The purpose of this website:
