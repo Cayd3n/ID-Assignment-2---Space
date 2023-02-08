@@ -45,7 +45,6 @@ function ready() {
 } 
 // Buy Button 
 function buyButtonClicked() { 
-  alert("Your Order is placed"); 
   var cartContent = document.getElementsByClassName("cart-content")[0]; 
   while (cartContent.hasChildNodes()) { 
     cartContent.removeChild(cartContent.firstChild); 
@@ -125,4 +124,15 @@ getElementsByClassName("cart-price")[0];
   total = Math.round(total * 100) / 100; 
  
   document.getElementsByClassName("total-price")[0].innerText = "$" + total; 
+}
+
+let popup = document.getElementById("popup");
+
+function openPopup() {
+  popup.classList.add("open-popup");
+
+}
+function closePopup() {
+  popup.classList.remove("open-popup");
+  
 }
