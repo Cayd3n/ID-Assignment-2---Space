@@ -40,3 +40,10 @@ function ChangeImage() {
 
 
 document.getElementById("slideButton").onclick = function() {ChangeImage()};
+
+
+//Storage of Newsletter Input
+$(".newsletterSignup").click(function(){
+  let email = $("#email").val()
+  localStorage.getItem(email)
+})
