@@ -72,7 +72,7 @@ body{
    /*--------------------------------Home Page--------------------------------------------------*/
    .bg { 
     
-    background-image: url(images/apollo.jpg);
+    background-image: url("/images/apollo.jpg");
   color:white;
    
     height: 100%; 
@@ -197,7 +197,7 @@ body{
   transition: color 0.3s, background 0s ease 0.3s;
 } 
 .careerbg {
-  background-image: url(images/careers.png);
+  background-image: url(/images/careers.png);
 color:white;
 height: 100%; 
 background-position: center;
@@ -215,7 +215,7 @@ padding:15%;
   text-align: center;
 }
 .container-life1 {
-  background-image: url(images/planet.jpg);
+  background-image: url(/images/planet.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -298,7 +298,7 @@ span:nth-child(4) {
 
 /*---------------------------------------INTERNSHIP-------------------------------------------------*/
 .internbg {
-  background-image: url(images/internship.jpg);
+  background-image: url(/images/internship.jpg);
   color:white;
   height: 100%; 
   background-position: center;
@@ -335,7 +335,7 @@ footer {
     padding-top: 15%;
   }
   .apolloBackground {
-    background-image: url("images/apolloBackground1.jpg");
+    background-image: url("/images/apolloBackground1.jpg");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -353,7 +353,7 @@ footer {
   }
 
   .apolloBackground2 {
-    background-image: url("images/apollo1.jpg");
+    background-image: url("/images/apollo1.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -565,7 +565,7 @@ footer {
 
 /*-------------------------------Curiosity CSS Elements------------------------------------*/
 .curiosityBackground1 {
-  background-image: url("images/curiosity2.jpg");
+  background-image: url("/images/curiosity2.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -624,7 +624,7 @@ footer {
   text-align: center;
 }
 .aboutbg {
-  background-image: url(images/about.jpg);
+  background-image: url("/images/about.jpg");
 color:white;
 height: 100%; 
 background-position: center;
