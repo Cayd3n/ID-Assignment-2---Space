@@ -72,6 +72,13 @@ The purpose of this website:
 
 - All product names from: https://www.shopnasa.com/
 
+<h3> Mission Pages <h3>
+- Apollo content based from: https://www.nasa.gov/mission_pages/apollo/missions/index.html
+- Webb Telescope content based from: https://www.nasa.gov/mission_pages/webb/main/index.html
+- Webb Telescope content based from: https://www.space.com/james-webb-space-telescope-12-amazing-discoveries
+- Curiosity content based from: https://www.nasa.gov/mission_pages/msl/index.html
+  
+  
 <h2>Image credits</h2>
   <h3>Home Page</h3>
 
@@ -158,3 +165,4 @@ The purpose of this website:
  - API is working
  - Checkout: Payment fields must be filled out, and checkout pops out after pressing buy button
  - Cart: Items can be successfully added and removed from cart
+ - Responsiveness is tested on all webpages, the pages are readable. 
