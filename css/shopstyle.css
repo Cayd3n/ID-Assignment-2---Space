@@ -432,3 +432,8 @@ span.price {
 .close:hover {
   cursor:pointer;
 }
+.payment-btn {
+  padding-left:40%;
+  text-decoration: none;
+  border:none;
+}

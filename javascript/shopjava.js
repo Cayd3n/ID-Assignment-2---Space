@@ -40,7 +40,7 @@ function ready() {
   } 
   // Buy Button Work 
   document 
-    .getElementsByClassName("btn-buy")[0] 
+    .getElementsByClassName("payment-btn")[0] 
     .addEventListener("click", buyButtonClicked); 
 } 
 // Buy Button 
@@ -136,6 +136,7 @@ function closePopup() {
   popup.classList.remove("open-popup");
   
 }
-function alert() {
-  alert("Order Placed!");
+function showAlert() {
+  var myText = "Order placed!";
+  alert (myText);
 }
