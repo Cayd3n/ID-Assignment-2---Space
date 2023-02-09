@@ -145,6 +145,7 @@ The purpose of this website:
 - shop page: https://www.youtube.com/watch?v=18Jvyp60Vbg&ab_channel=CarpoolVenom
 - scroll animation: https://youtu.be/T33NN_pPeNI
 - formating: https://www.w3schools.com/
+- timeline: https://alvarotrigo.com/blog/html-css-timelines/
   
  <h1>Testing</h1> 
 
