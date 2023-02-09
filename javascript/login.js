@@ -62,16 +62,14 @@ sign_up_form.addEventListener("submit", (e) => {
   const inputs = e.target.elements;
 
   //get the your input values
-  const firstName = inputs["firstName"].value;
-  const lastName = inputs["lastName"].value;
+  const username = inputs["username"].value;
   const email = inputs["email"].value;
   const password = inputs["password"].value;
 
   //store it into object 
   const newUser = {
       "fields": {
-        "firstName": firstName,
-        "lastName": lastName,
+        "username":username,
         "email": email,
         "password": password
     }
