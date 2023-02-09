@@ -24,12 +24,19 @@ The purpose of this website:
 - about
 
 <h2>Features & Functions</h2>
+
 - navigation bar
 - responsive & interactive throughout whole website
 - shopping cart
 - updates footer
 - interactive buttons 
 - scroll animation
+<h2>Features left to imeplement</h2>
+
+- save payment and address details after user logs in
+- make website more personalised after user logs in  
+- interactive solar system
+
 
 <h1>Technologies used</h1>
 
