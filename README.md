@@ -101,7 +101,7 @@ The purpose of this website:
 - Slide show: https://www.rmg.co.uk/stories/topics/what-do-james-webb-space-telescope-images-show
 - Slide show: https://www.jpl.nasa.gov/news/haunting-portrait-nasas-webb-reveals-dust-structure-in-pillars-of-creation
 
-<h3>Careers<h3>
+<h3>Careers</h3>
 
 - First image: https://www.nasa.gov/feature/sending-american-astronauts-to-moon-in-2024-nasa-accepts-challenge/
 - Youtube video: https://www.youtube.com/watch?v=HUZYnvpElk8&t=29s&ab_channel=NASA
