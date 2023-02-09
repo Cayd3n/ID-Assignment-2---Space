@@ -52,10 +52,12 @@ The purpose of this website:
 - January 27: Finished Missions: apollo page
 - January 28: Started on API and Missions: Curiousity, finished shop page
 - Feburary 2: Finished Missions: Webb Telescope and Curiousity
-- Feburary 8th: Finished API for footer and check out function
+- Feburary 8: Finished API for footer and check out function
 
-<h1>Credits and Inpiration</h1>
+<h1>Credits and Acknowledgement</h1>
+
 <h2>Content Credit</h2>
+
 <h3> Careers & Internship Pages:</h3>
 
 - content from https://www.nasa.gov/careers
@@ -135,3 +137,11 @@ The purpose of this website:
 - Eighteenth: https://tr.wikipedia.org/wiki/Wallops_U%C3%A7u%C5%9F_Tesisi
 - Ninteenth: https://vk.com/@globalintelligence-us-gt-nasa-white-sands-test-facility
   
+ <h1>Testing</h1> 
+
+ - Updates Footer: Validation that the input is in the correct format and is not null
+ - All buttons are interactive and link to relevant page
+ - Navigation bar works the same in every page (except shop page)
+ - API is working
+ - Checkout: Payment fields must be filled out, and checkout pops out after pressing buy button
+ - Cart: Items can be successfully added and removed from cart
