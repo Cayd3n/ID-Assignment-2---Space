@@ -13,7 +13,7 @@ The purpose of this website:
 <h1>Web Pages and Features</h1>
 <h2>Pages</h2>
 
--  home page
+- home page
 - missions: apollo 11 page
 - missions: webb telescope
 - missions: curiousity
