@@ -20,15 +20,17 @@ The purpose of this website:
 - careers
 - careers: internship
 - shop
+- login
 - about
-<h2>Features & Functions</h2>
 
+<h2>Features & Functions</h2>
 - navigation bar
 - responsive & interactive throughout whole website
 - shopping cart
 - updates footer
 - interactive buttons 
 - scroll animation
+
 <h1>Technologies used</h1>
 
 - HTML
@@ -38,6 +40,7 @@ The purpose of this website:
 - Visual Studio Code
 - BootStrap
 - Ajax
+
 <h1> Process </h1>
 
 - January 10: Brain Storming website ideas
@@ -145,6 +148,7 @@ The purpose of this website:
 - shop page: https://www.youtube.com/watch?v=18Jvyp60Vbg&ab_channel=CarpoolVenom
 - scroll animation: https://youtu.be/T33NN_pPeNI
 - formating: https://www.w3schools.com/
+- timeline: https://alvarotrigo.com/blog/html-css-timelines/
   
  <h1>Testing</h1> 
 
