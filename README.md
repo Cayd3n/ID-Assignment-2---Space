@@ -11,7 +11,7 @@ The purpose of this website:
 - To learn more about life working at NASA
 
 <h1>Web Pages and Features</h1>
-<h2>Pages<h2>
+<h2>Pages</h2>
 - home page
 - missions: apollo 11 page
 - missions: webb telescope
