@@ -136,6 +136,15 @@ The purpose of this website:
 - Seventeenth: https://www.nasa.gov/image-feature/nasa-conducts-final-rs-25-rocket-engine-test-of-2017/
 - Eighteenth: https://tr.wikipedia.org/wiki/Wallops_U%C3%A7u%C5%9F_Tesisi
 - Ninteenth: https://vk.com/@globalintelligence-us-gt-nasa-white-sands-test-facility
+
+<h2>Acknowledgements</h2>
+
+- button animation: https://codepen.io/RazorXio/pen/gMaoOW
+- navigation bar inspo: https://www.shopnasa.com/
+- UI inspo: https://www.virgingalactic.com/ 
+- shop page: https://www.youtube.com/watch?v=18Jvyp60Vbg&ab_channel=CarpoolVenom
+- scroll animation: https://youtu.be/T33NN_pPeNI
+- formating: https://www.w3schools.com/
   
  <h1>Testing</h1> 
 
