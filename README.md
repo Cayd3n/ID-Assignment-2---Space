@@ -37,7 +37,7 @@ The purpose of this website:
 - Adobe XD
 - Visual Studio Code
 - BootStrap
-
+- Ajax
 <h1> Process </h1>
 
 - January 10: Brain Storming website ideas
