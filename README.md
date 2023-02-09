@@ -13,22 +13,24 @@ The purpose of this website:
 <h1>Web Pages and Features</h1>
 <h2>Pages</h2>
 
--  home page
+-  homepage
 - missions: apollo 11 page
 - missions: webb telescope
 - missions: curiousity
 - careers
 - careers: internship
 - shop
+- login
 - about
-<h2>Features & Functions</h2>
 
+<h2>Features & Functions</h2>
 - navigation bar
 - responsive & interactive throughout whole website
 - shopping cart
 - updates footer
 - interactive buttons 
 - scroll animation
+
 <h1>Technologies used</h1>
 
 - HTML
@@ -37,6 +39,7 @@ The purpose of this website:
 - Adobe XD
 - Visual Studio Code
 - BootStrap
+- Ajax
 
 <h1> Process </h1>
 
