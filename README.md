@@ -29,7 +29,31 @@ The purpose of this website:
 - updates footer
 - interactive buttons 
 - scroll animation
-  
+<h1>Technologies used</h1>
+
+- HTML
+- JavaScript
+- CSS
+- Adobe XD
+- Visual Studio Code
+- BootStrap
+
+<h1> Process </h1>
+
+- January 10: Brain Storming website ideas
+- January 11: Decided on ideaa
+- January 14: Started doing wireframe on Adobe XD
+- January 16: Started on Navigation bar and decided on color scheme
+- January 18: Finished Navigation bar and started on home page
+- January 21: Finished home page, started on Careers page
+- January 22: Decided to replace downloads page with shop page
+- January 23: Finished Careers and internship page
+- January 26: Started on Missions: apollo page and Shop page
+- January 27: Finished Missions: apollo page
+- January 28: Started on API and Missions: Curiousity, finished shop page
+- Feburary 2: Finished Missions: Webb Telescope and Curiousity
+- Feburary 8th: Finished API for footer and check out function
+
 <h1>Credits and Inpiration</h1>
 <h2>Content Credit</h2>
 <h3> Careers & Internship Pages:</h3>
